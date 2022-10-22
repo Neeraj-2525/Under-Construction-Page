@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: linear-gradient(to bottom, #e35d5b, #e53935);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.container{
+    text-align: center;
+    margin-top: 2%;
+    line-height: 250%;
+}
+
+.container h2{
+    font-size: 150%;
+    letter-spacing: 1px;
+}
+
+.container p{
+    font-size: 70%;
+}
+
+.rocket:hover{
+    cursor: pointer;
+    
+}
